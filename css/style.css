@@ -1,0 +1,312 @@
+body{
+  margin: 0;
+}
+
+nav{
+  display: flex;
+}
+
+.head{
+  background-color: white;
+  display: flex;
+  width: rgb(255, 0, 0);
+  height: 10vh;
+}
+
+.logo
+{
+display: flex;
+align-items: center;
+}
+
+.logot{
+  height: 10vh;
+  width: 13vh;
+  margin-left: 25%;
+}
+
+.btno{
+  display: flex;
+  align-items: center;
+}
+
+.btn{
+  text-align: center;
+  align-items: center;
+  margin-left: 170vh;
+  width: 100px;
+height: 40px;
+border-radius: 5px;
+background-color: red;
+border: none;
+font-weight: bold;
+font-size: 15px;
+color: white;
+cursor: alias;
+}
+.btn:hover{
+
+  transform: scale(1.1);
+}
+
+.sen{
+  background-color: #EAF6F6;
+  height: 2200px;
+  width: rgb(300 0 0);
+}
+
+.main-line{
+padding-top: 125px;
+padding-left: 50px;
+font-size: 30px;
+width: 55%;
+color: 	#00008b;
+
+}
+.heading{
+  float: right;
+}
+.ord{
+  height: 40px;
+  border-radius: 5px;
+  background-color: red;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  cursor: cell;
+  margin-left: 30px;
+}
+
+
+.sec-img{
+  width: 400px;
+  height: 400px;
+  top:130px;
+position: absolute;
+left: 890px;
+}
+
+.video{
+  position: absolute;
+  top: 600px;
+  left: 550px;
+  box-shadow: 20px 20px   #ff5c1f;
+}
+.video:hover
+{
+transform: scale(1.1);
+}
+.video-bottom{
+  position: absolute;
+  top: 930px;
+  left: 210px;
+  font-size: 25px;
+  }
+.menu{
+  background-color: #f06b00;
+  position: absolute;
+  top: 1100px;
+  left: 150px;
+  width: 1200px;
+  height: 380px;
+/*  z-index: 1;                   kisi bhi chiz ko upr krne k liye*/
+transform: skew(1deg, -3deg)
+}
+  .explore{
+    color: #00008b;
+    position: absolute;
+    top: 1045px;
+    left: 500px;
+    font-size: 40px;
+
+  }
+
+  .burger{
+    margin-left: 30px;
+    margin-top: 20px;
+    transform: skew(0deg, -1deg);
+  }
+
+
+  .burger:hover
+  {
+  transform: scale(1.1);
+  }
+  .pizza{
+    margin-left: 30px;
+    margin-top: 20px;
+    transform: skew(0deg, -1deg);
+  }
+
+  .pizza:hover
+  {
+  transform: scale(1.1);
+  }
+  .third{
+    margin-left: 30px;
+    margin-top: 20px;
+    transform: skew(0deg, -1deg);
+  }
+  .third:hover
+  {
+  transform: scale(1.1);
+  }
+
+
+.more{
+height: 40px;
+width: 90px;
+margin-left: 500px;
+margin-top: 15px;
+  align-items: center;
+border-radius: 5px;
+background-color: red;
+border: none;
+font-weight: bold;
+font-size: 15px;
+color: white;
+cursor: alias;
+}
+.more:hover
+{
+transform: scale(1.1);
+}
+
+.restruants{
+  margin-left: 200px;
+  margin-top: 1200px;
+  font-size: 40px;
+  color: #00008b;
+}
+
+.img-div{
+  position: absolute;
+  background: #EAF6F6;
+  left: 800px;
+  top: 200vh;
+  height: 500px;
+  width: 500px;
+}
+.first-img{
+  position: absolute;
+  margin-left: 0px;
+margin-top: 90px;
+float: right;
+}
+
+.second-img{
+  margin-left: 235px;
+  margin-top: 10px;
+}
+
+.third-img{
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.fourth-img{
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 0px;
+}
+
+.stay{
+  position: absolute;
+  margin-top: 230px;
+  left: 35%;
+}
+
+.search{
+  position: absolute;
+  margin-top: 260px;
+  left: 35%;
+  width: 200px;
+    border-color: red;
+border-radius: 5px;
+}
+
+.updates{
+  position: absolute;
+  margin-top: 240px;
+  left: 50%;
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  border-color: red;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.updates:hover{
+  transform: scale(1.1);
+}
+
+.rich-or-poor{
+  background-image: url("../images/hotel.jfif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.9;
+  position: absolute;
+  margin-top: 300px;
+  left: 60px;
+  width: 90%;
+  height: 27%;
+  background-color: white;
+  border-radius: 8px;
+  filter: blur(90%);
+}
+
+/* .background-imga{
+height: 100%;
+width: 100%
+
+} */
+
+.sto{
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 350px;
+  margin-right: 120px;
+  text-align: center;
+}
+.stomach{
+  margin: 0;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  }
+.foot{
+  background-color: red;;
+  display: flex;
+  width: rgb(255, 0, 0);
+  height: 25vh;
+  border-radius: 5px;
+  }
+
+.zomo
+  {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 25px;
+    height: 22vh;
+    width: 150px;
+
+  }
+  .bott{
+margin-top: 30px;
+margin-left: 250px;
+color: white;
+font-size: 100px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;;
+  }
+
+.bottom-foot{
+  margin-top: 25px;
+  margin-left: 1100px;
+  font-size: 20px;
+  color: white;
+}
